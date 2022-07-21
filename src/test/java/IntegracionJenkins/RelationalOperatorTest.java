@@ -39,6 +39,6 @@ public class RelationalOperatorTest {
 	@Test
 	public void TestLess() {
 		RelationalOperator tester = new RelationalOperator();
-		assertFalse(tester.isGreater(5, 5));
+		assertFalse(tester.isLess(5, 5));
 	}
 }
